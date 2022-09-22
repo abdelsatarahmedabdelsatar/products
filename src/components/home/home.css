@@ -1,0 +1,19 @@
+.home{
+    margin-top: 65px;
+}
+.foot{
+    position: absolute;
+    bottom:15px;
+    right: 0px;
+}
+.myshadow{
+    box-shadow:  1px 5px 30px #175666;
+}
+.scale:hover{
+    transform: scale(0.8);
+    animation: move 1.3s both;
+}
+@keyframes move{
+    from { transform: scale(1)}
+    to { transform: scale(1.1)}
+}
