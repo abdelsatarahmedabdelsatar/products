@@ -1,5 +1,4 @@
 import "bootstrap/dist/css/bootstrap.min.css";
-import LocalMallIcon from '@material-ui/icons/LocalMall';
 import { useSelector } from "react-redux";
 import './navbar.css'
 import { Link } from 'react-router-dom';
@@ -23,7 +22,7 @@ function Navbar() {
                 </Link>
               </li>
             </ul>
-            <LocalMallIcon style={{color:'#C00',fontSize:'35px'}} /><sup style={{color:'black'}}>{carts.length}</sup>
+           <h3>Cart</h3><sup style={{color:'black'}}>{carts.length}</sup>
           </div>
         </div>
       </nav>
